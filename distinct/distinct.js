@@ -11,7 +11,7 @@ const rl = readline.createInterface({
 rl.question('Input: ', (arr) => {
 	console.log('');
 	console.log('Output: ', getDistinctsNum([2, 1, 1, 2, 3, 1]));
-	// console.log('Output: ', getDistinctsNum(arr));	// Uncomment this is you want to input data via cmd
+	// console.log('Output: ', getDistinctsNum(arr));	// Uncomment this if you want to input data via cmd
 	console.log('');
 	rl.close();
 });
