@@ -15,7 +15,7 @@ rl.question('Input: ', (arr) => {
     rl.close();
 });
 
-function solution (arr) {
+function getEqui (arr) {
     if (!arr)
         return -1;
     
@@ -30,7 +30,7 @@ function solution (arr) {
 
     var sumLeft = 0;
 
-    for (i = 0; i < n; i++) {
+    for (i = 0; i < len; i++) {
         var sumRight = sum - sumLeft - arr[i];
         if (sumLeft === sumRight)
             return i;
